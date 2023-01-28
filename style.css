@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .half-width {
@@ -37,4 +38,32 @@ section {
 .top-banner {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+
+.resume {
+    text-decoration: none;
+    background-image: linear-gradient(violet, brown);
+    color: whitesmoke;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.widthchange img {
+    width: 100%;
+    padding-left: ;
+    padding-right: 10%;
+    padding-bottom: ;
+    padding-top: ;
+}
+
+.widthchange {
+    width: 50%;
+    padding-right: 2%;
+}
+
+.banner {
+    background-image: url(images/back.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
